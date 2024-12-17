@@ -226,8 +226,6 @@ nav .right-content a{
     filter: drop-shadow(0px 0px 40px rgba(255, 217, 0, 0.178));
     mask-image: linear-gradient(black 50%, rgba(0, 0, 0, 0));
     position: relative;
-
-
 }
 
 .right{
@@ -518,26 +516,6 @@ nav .right-content a{
 }
 
 
-
-
-/* .experience{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap:20px;
-    width: 100%;
-} */
-
-
-/* .vertical-line{
-    background-color: gold;
-    height: 100%;
-    width: 3px;
-} */
-
-
 #Skills{
  
     width: 100%;
@@ -587,10 +565,9 @@ nav .right-content a{
     position: relative;
     border-radius: 7px;
     min-width: 230px;
-    max-width: 250px;
     flex-wrap: wrap;
-    width: 20%;
-    height: 230px;
+    width: 30%;
+    height: 500px;
     padding: 10px;
     margin-top: 30px;
     display: flex;
@@ -638,8 +615,8 @@ nav .right-content a{
 
 .skills-deteals img{
     margin-top: 5px;
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 450px;
 }
 
 
@@ -821,7 +798,6 @@ nav .logo-and-menu{
 }
 
 .slider .element i{
-    /* font-size:2.7rem ; */
     font-size: clamp( 20px , 4vw , 40px);
     color: white;
 }
@@ -985,4 +961,5 @@ nav .logo-and-menu{
     left: max(calc(100px * 8) , 100%);
 
 }
+
 }
